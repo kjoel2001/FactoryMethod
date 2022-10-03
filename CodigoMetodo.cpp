@@ -9,19 +9,19 @@ class Vehiculo {
 class DosRuedas : public Vehiculo { 
     public: 
     void printVehicle() { 
-        cout << "2 ruedas" << endl; 
+        cout << "Se ingreso un vehiculo de 2 ruedas" << endl; 
     } 
 }; 
 class TresRuedas : public Vehiculo { 
     public: 
     void printVehicle() { 
-        cout << "3 ruedas" << endl; 
+        cout << "Se ingreso un vehiculo de 3 ruedas" << endl; 
     } 
 }; 
 class CuatroRuedas : public Vehiculo { 
     public: 
     void printVehicle() { 
-        cout << "4 ruedas" << endl; 
+        cout << "Se ingreso un vehiculo de 4 ruedas" << endl; 
     } 
 }; 
 Vehiculo* Vehiculo::Create(VehicleType type) { 

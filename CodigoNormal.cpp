@@ -8,13 +8,13 @@ class Vehiculo {
 class DosRuedas : public Vehiculo { 
     public: 
         void printVehicle() { 
-            cout << "2 ruedas " << endl; 
+            cout << "Se ingreso un vehiculo de 2 ruedas " << endl; 
             } 
 }; 
 class CuatroRuedas : public Vehiculo {
     public: 
         void printVehicle() { 
-            cout << "4 ruedas" << endl; 
+            cout << "Se ingreso un vehiculo de 4 ruedas" << endl; 
             } 
 }; 
 class Cliente { 
