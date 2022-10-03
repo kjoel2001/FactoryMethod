@@ -47,7 +47,8 @@ class Cliente {
     Vehiculo* getVehicle() { 
         return pVehicle; 
     } 
-    private: Vehiculo *pVehicle; 
+    private: 
+    Vehiculo *pVehicle; 
 }; 
 int main() { 
     Cliente *pClient = new Cliente(); 
